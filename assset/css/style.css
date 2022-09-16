@@ -1,0 +1,356 @@
+body {
+    font-family: sans-serif;
+    color: #848e9f;
+}
+
+
+/*? color-text */
+.text-aquamarine {
+    color: #13c5dd;
+}
+
+.text-grey {
+    color: #8D98A6;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-darkblue {
+    color: #1d2a4d;
+}
+
+/*  * style de text */
+.text-center {
+    text-align: center;
+}
+
+/* ?font-size */
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+/** pack de img*/
+.pack-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-position-right {
+    background-position: right;
+}
+
+/*? backgrounds */
+.bg-banner {
+    background-image: url(../img/hero.jpg);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-light {
+    background-color: #eff5f9;
+}
+
+.bg-aquamarine {
+    background-color: #13c5dd;
+}
+
+/* *componentes especiales */
+.square-buttom-navar {
+    border: 1px solid rgb(0 0 0 / 0.1);
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    outline: none;
+}
+
+.button-style-banner {
+    color: white;
+    font-size: 16px;
+}
+
+.button-style-banner:hover {
+    background-color: #fff;
+    color: black;
+
+}
+
+.circle-ovalo {
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ovalo-aquamarine {
+    background-color: #13c5dd;
+    border-radius: 50%;
+    height: 90px;
+    width: 140px;
+    margin-bottom: 25px;
+}
+
+.button-secundary {
+    color: #1d2a4d;
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+.button-secundary:hover {
+    background-color: #1d2a4d;
+    color: #fff;
+}
+
+.form {
+    padding: 15px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form:focus {
+    box-shadow: 0px 0px 5px 3px #13c5dd;
+}
+
+.sumit-button {
+    border: 1px solid transparent;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.cape {
+    background-color: rgb(29 42 77 / 80%) !important;
+    width: 100%;
+    height: 100%;
+    bottom: 1px;
+}
+
+/* ?border-radius */
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.br-30p {
+    border-radius: 30px;
+}
+
+.br-15 {
+    border-radius: 15px;
+}
+
+/* * border */
+.b-rgba {
+    border: 4px solid rgb(255 255 255 / 30%);
+}
+
+.b-white {
+    border: 1px solid white;
+}
+
+.b-darkblue {
+    border: 1px solid #1d2a4d;
+}
+
+.b-light {
+    border: 1px solid #eff5f9;
+}
+
+.bb-aquamarine {
+    border-bottom: 1px solid #13c5dd;
+}
+
+.bb-grey-7 {
+    border-bottom: 7px solid #dee2e6;
+}
+
+.btr-10 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bw-5p {
+    border-width: 5px;
+}
+
+/* ? margin */
+
+.m-auto {
+    margin: auto;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+/* * padding */
+.p-20 {
+    padding: 20px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pl-7 {
+    padding-left: 7px;
+}
+
+.pr-7 {
+    padding-right: 7px;
+}
+
+/* ?height */
+.h-50vh {
+    height: 50vh;
+}
+
+.min-h-500 {
+    min-height: 500px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.lh-25 {
+    line-height: 25px;
+}
+
+.lh-35 {
+    line-height: 35px;
+}
+
+/* *width */
+.w-60 {
+    width: 60%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-68 {
+    width: 68%;
+}
+
+/* ?lados */
+
+.top-0 {
+    top: 0;
+}
+
+/* rotacion */
+
+.transfor-rotate-13 {
+    transform: rotate(13deg);
+}
+
+.transfor-rotate--14 {
+    transform: rotate(-14deg);
+}
