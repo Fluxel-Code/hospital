@@ -1,6 +1,17 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../font/RobotoCondensed-Bold.ttf) format("ttf");
+    src: url(../font/RobotoCondensed-BoldItalic.ttf) format("ttf");
+    src: url(../font/RobotoCondensed-Italic.ttf) format("tff");
+    src: url(../font/RobotoCondensed-Light.ttf) format("tff"); 
+    src: url(../font/RobotoCondensed-LightItalic.ttf) format("tff");
+    src: url(../font/RobotoCondensed-Regular.ttf) format("tff");
+}
+
 body {
-    font-family: sans-serif;
+    font-family: "roboto";
     color: #848e9f;
+    
 }
 
 
@@ -37,6 +48,10 @@ body {
 /* ?font-size */
 .fs-15{
     font-size: 15px;
+}
+
+.fs-16{
+    font-size: 16px;
 }
 
 .fs-17 {
@@ -89,6 +104,10 @@ body {
 
 .bg-aquamarine {
     background-color: #13c5dd;
+}
+
+.bg-darkblue{
+    background-color: #1d2a4d;
 }
 
 /* *componentes especiales */
@@ -300,6 +319,10 @@ body {
     margin-bottom: 30px;
 }
 
+.mb-50{
+    margin-bottom: 50px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -310,6 +333,10 @@ body {
 
 .mr-10{
     margin-right: 10px;
+}
+
+.mr-3{
+    margin-right: 3px;
 }
 
 /* * padding */
@@ -361,8 +388,20 @@ body {
     padding-top: 50px;
 }
 
+.pt-100{
+    padding-top: 100px;
+}
+
 .pb-25 {
     padding-bottom: 25px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
 }
 
 .pb-10 {
@@ -398,8 +437,16 @@ body {
     height: 500px;
 }
 
+.h-60p{
+    height: 60px;
+}
+
 .h-45p{
     height: 45px;
+}
+
+.h-40p{
+    height: 40px;
 }
 
 .min-h-500 {
@@ -422,6 +469,10 @@ body {
     line-height: 35px;
 }
 
+.lh-30{
+    line-height: 30px;
+}
+
 /* *width */
 .w-60 {
     width: 60%;
@@ -435,8 +486,16 @@ body {
     width: 68%;
 }
 
+.w-45{
+    width: 45%;
+}
+
 .w-45p{
     width: 45px;
+}
+
+.w-60p{
+    width: 60px;
 }
 
 /* ?lados */
@@ -457,20 +516,42 @@ body {
     bottom: -340px;
 }
 
+.bottom-neg-25{
+    bottom: -25px;
+}
+
 .left-115{
     left: 115px;
+}
+
+.left-43{
+    left: 43px;
 }
 
 .right-115{
     right: 115px;
 }
 
-/* rotacion */
+.br-right-corner{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
 
+.br-left-corner{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+/* rotacion */
 .transfor-rotate-13 {
     transform: rotate(13deg);
 }
 
 .transfor-rotate--14 {
     transform: rotate(-14deg);
+}
+
+/* box-shadow */
+.box-right-aquamarine{
+    box-shadow: -2px 0px 5px #13c5dd;
 }
