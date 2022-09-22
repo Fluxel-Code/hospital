@@ -81,6 +81,10 @@ body {
     font-size: 35px;
 }
 
+.fs-38 {
+    font-size: 38px;
+}
+
 /** pack de img*/
 .pack-img {
     background-position: center;
@@ -369,6 +373,12 @@ body {
     margin-bottom: 100px;
 }
 
+
+
+.mr-20 {
+    margin-right: 20px;
+}
+
 .mr-10 {
     margin-right: 10px;
 }
@@ -473,6 +483,10 @@ body {
 /* ?height */
 .h-50vh {
     height: 50vh;
+}
+
+.h-70vh {
+    height: 70vh;
 }
 
 .h-530p {
@@ -592,6 +606,10 @@ body {
 
 .bottom-230p {
     bottom: 230px;
+}
+
+.bottom-260p {
+    bottom: 260px;
 }
 
 .bottom-neg-360 {
