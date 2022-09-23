@@ -6,7 +6,7 @@
     }
 
     .d-md-none {
-        display: none;
+        display: none !important;
     }
 
     .d-md-inline {
@@ -252,7 +252,7 @@
     }
 
     .d-lg-none {
-        display: none;
+        display: none !important;
     }
 
     .d-lg-inline {
@@ -426,8 +426,12 @@
         width: 20%;
     }
 
+    .w-lg-25 {
+        width: 25% !important;
+    }
+
     .w-lg-33 {
-        width: 33%;
+        width: 33% !important;
     }
 
     .w-lg-50 {
