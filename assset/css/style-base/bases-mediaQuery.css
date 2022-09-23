@@ -180,6 +180,10 @@
         width: 20%;
     }
 
+    .w-md-25 {
+        width: 25% !important;
+    }
+
     .w-md-33 {
         width: 33%;
     }
