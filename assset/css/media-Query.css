@@ -498,4 +498,161 @@
     }
 }
 
-@media screen and (min-width:1203px) {}
+@media screen and (min-width:1200px) {
+
+    /* *background-color */
+    .bg-xl-positions-top {
+        background-position: top !important;
+    }
+
+    /* *border */
+    .bb-xl-transparent {
+        border-bottom: 1px solid transparent;
+    }
+
+    /* *margin */
+    .mr-xl-20 {
+        margin-right: 20px;
+    }
+
+    .ml-xl-20 {
+        margin-left: 20px;
+    }
+
+    .mt-xl-130 {
+        margin-top: 130px;
+    }
+
+    .mt-xl-50 {
+        margin-top: 50px;
+    }
+
+    .mt-xl-30 {
+        margin-top: 30px;
+    }
+
+    .mb-xl-10 {
+        margin-bottom: 10px;
+    }
+
+    .mb-xl-35 {
+        margin-bottom: 35px;
+    }
+
+    .mb-xl-50 {
+        margin-bottom: 50px;
+    }
+
+    /* *padding */
+    .pb-xl-25 {
+        padding-bottom: 25px;
+    }
+
+    .pb-xl-50 {
+        padding-bottom: 50px;
+    }
+
+    .pt-xl-25 {
+        padding-top: 25px;
+    }
+
+    .pt-xl-50 {
+        padding-top: 50px;
+    }
+
+    .pr-xl-0 {
+        padding-right: 0px;
+    }
+
+    .pl-xl-0 {
+        padding-left: 0px;
+    }
+
+    /* *font-size */
+    .fs-xl-17 {
+        font-size: 17px;
+    }
+
+    .fs-xl-24 {
+        font-size: 24px;
+    }
+
+    .fs-xl-25 {
+        font-size: 25px;
+    }
+
+    .fs-xl-35 {
+        font-size: 35px;
+    }
+
+    .fs-xl-50 {
+        font-size: 50px;
+    }
+
+    .fs-xl-55 {
+        font-size: 55px;
+    }
+
+    .fs-xl-70 {
+        font-size: 70px;
+    }
+
+    /* *height */
+    .hv-xl-80 {
+        height: 80vh;
+    }
+
+    .lh-xl-65 {
+        line-height: 65px;
+    }
+
+    /* *width */
+    .w-xl-65 {
+        width: 65%;
+    }
+
+    .w-xl-60 {
+        width: 60%;
+    }
+
+    .w-xl-40 {
+        width: 40%;
+    }
+
+    .w-xl-20 {
+        width: 20% !important;
+    }
+
+    .w-xl-28 {
+        width: 28% !important;
+    }
+
+    .w-xl-10 {
+        width: 10%;
+    }
+
+    .w-xl-16 {
+        width: 16%;
+    }
+
+    .w-xl-15 {
+        width: 15%;
+    }
+
+    .w-xl-14 {
+        width: 14% !important;
+    }
+
+    .w-xl-11 {
+        width: 11%;
+    }
+
+    /* *lados */
+    .left-xl-480 {
+        left: 480px;
+    }
+
+    .right-xl-480 {
+        right: 480px;
+    }
+}
